@@ -1,5 +1,5 @@
 {
-    "name": "cluster/framework",
+    "name": "clusterphp/framework",
     "description": "Php MVC Framework",
     "keywords": [],
     "license": "MIT",
