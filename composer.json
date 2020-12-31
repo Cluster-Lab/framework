@@ -1,0 +1,24 @@
+{
+    "name": "cluster/framework",
+    "description": "Php MVC Framework",
+    "keywords": [],
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Cluster\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cluster\\Test\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "phpstan/phpstan": "^0.12.0"
+    }
+}
